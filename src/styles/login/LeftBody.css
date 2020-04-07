@@ -1,0 +1,33 @@
+.left-body .row-in-left:nth-child(1) {
+  font-size: 38px;
+  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #333333;
+}
+
+.left-body .row-in-left:nth-child(2) {
+  font-size: 21px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.left-body .row-in-left:nth-child(3) img {
+  width: 160px;
+  height: 160px;
+  padding: 0;
+  margin: 0;
+}
+
+.left-body .row-in-left:nth-child(3) {
+  width: 160px;
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px #dddfe2;
+  text-align: center;
+}
+
+.left-body .row-in-left:nth-child(3) .text {
+  padding: 12px 0px;
+  font-size: 20px;
+  line-height: 22px;
+  color: #4b4f56;
+}

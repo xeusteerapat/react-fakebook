@@ -1,0 +1,42 @@
+.navbar {
+  height: 83px;
+  width: 100%;
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.top {
+  width: 980px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+}
+
+.top table td {
+  font-size: 12px;
+}
+
+.top button {
+  background-color: #526ea8;
+  border-radius: 3px;
+  border: 1px solid #003694;
+  font-weight: bold;
+}
+
+.top button:hover {
+  background-color: #3b5ca1;
+  cursor: pointer;
+}
+
+.top input {
+  height: 22px;
+  border: 1px solid black;
+  margin-right: 15px;
+  color: black;
+}
+
+.forget-account {
+  color: #8aa2d4;
+}
