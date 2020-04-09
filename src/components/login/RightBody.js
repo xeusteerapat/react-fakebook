@@ -6,93 +6,93 @@ export default class RightBody extends Component {
   render() {
     return (
       <Col className="RightBody">
-        <Row className="rowInLeft">สร้างบัญชีใหม่</Row>
+        <Row className="rowInLeft">Create a new account</Row>
 
-        <Row className="rowInLeft">ง่ายและเร็ว</Row>
+        <Row className="rowInLeft">It's quick and easy.</Row>
 
         <Row className="rowInLeft">
           <Col>
             <Row className="firstInput inputRight one">
-              <input type="text" placeholder="ชื่อ" />
+              <input type="text" placeholder="Firstname" />
             </Row>
             <Row className="firstInput inputRight">
-              <input type="text" placeholder="นามสกุล" />
+              <input type="text" placeholder="Lastname" />
             </Row>
           </Col>
           <Col span={24} className="inputRight">
-            <input type="text" placeholder="หมายเลขโทรศัพท์มือถือหรืออีเมล์" />
+            <input type="text" placeholder="Mobile number or email address" />
           </Col>
           <Col span={24} className="inputRight">
-            <input type="text" placeholder="รหัสผ่านใหม่" />
+            <input type="text" placeholder="New password" />
           </Col>
           <Col span={24} className="inputRight">
-            <Row className="birthDay">วันเกิด</Row>
+            <Row className="birthDay">Birthday</Row>
             <Row>
               <select>
-                <option selected value="วัน">
-                  วัน
+                <option selected value="date">
+                  8
                 </option>
               </select>
               <select>
-                <option selected value="วัน">
-                  วัน
+                <option selected value="date">
+                  April
                 </option>
               </select>
               <select>
-                <option selected value="วัน">
-                  วัน
+                <option selected value="date">
+                  1995
                 </option>
               </select>
               <span className="questionIcon">
-                <i class="img sp_UQETc8Y6QpO_1_5x sx_bb491c"></i>
+                <i className="img sp_UQETc8Y6QpO_1_5x sx_bb491c"></i>
               </span>
             </Row>
           </Col>
           <Col span={24} className="inputRight">
-            <Row className="gender">เพศ</Row>
+            <Row className="gender">Gender</Row>
             <Row>
               <span>
                 {' '}
                 <input type="radio"></input>
-                <label>หญิง</label>
+                <label>Female</label>
               </span>
               <span>
                 {' '}
                 <input type="radio"></input>
-                <label>ชาย</label>
+                <label>Male</label>
               </span>
               <span>
                 {' '}
                 <input type="radio"></input>
-                <label>กำหนดเอง</label>
+                <label>Custom</label>
               </span>
               <span>
                 {' '}
-                <i class="img sp_UQETc8Y6QpO_1_5x sx_bb491c"></i>{' '}
+                <i className="img sp_UQETc8Y6QpO_1_5x sx_bb491c"></i>{' '}
               </span>
             </Row>
           </Col>
-          <p class="shortText">
-            เมื่อคลิก สมัคร แสดงว่าคุณยินยอมตาม
+          <p className="shortText">
+            By clicking Sign Up, you agree to our
             <a href="/" target="_blank" rel="nofollow">
-              ข้อกำหนด
+              Term,
             </a>{' '}
             <a href="/" id="privacy-link" target="_blank" rel="nofollow">
-              นโยบายข้อมูล
+              Data Policy
             </a>{' '}
-            และ
+            and
             <a href="/" id="cookie-use-link" target="_blank" rel="nofollow">
-              นโยบายคุกกี้
+              Cookie Policy
             </a>
-            ของเราแล้ว คุณอาจได้รับการแจ้งเตือนทาง SMS
-            จากเราและสามารถเลือกไม่รับได้ทุกเมื่อ
+            You may receive SMS notifications from us and can opt out at any
+            time.
           </p>
           <Col span={24} className="inputRight buttonBlock">
-            <button className="signUp">สมัคร</button>
+            <button className="signUp">Sign Up</button>
           </Col>
           <Col span={24} className="lastText">
-            <a href="/">สร้างเพจ </a>
-            สำหรับบุคคลมีชื่อเสียง วงดนตรี หรือธุรกิจ
+            <a href="/">Create a Page </a>
+            for a celebrity, band or business.
           </Col>
         </Row>
       </Col>

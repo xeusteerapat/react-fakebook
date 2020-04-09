@@ -14,6 +14,8 @@ export default class LeftBody extends Component {
             alt=""
           />
           <div className="text">Xeus Teerapat</div>
+          <i className="img sp_UQETc8Y6QpO_2x sx_8d1a27">d</i>
+          <div className="text">Xeus Teerapat</div>
         </Row>
       </Col>
     );
